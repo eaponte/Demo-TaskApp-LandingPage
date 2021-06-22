@@ -1,0 +1,41 @@
+.contact-section {
+
+	// Media Queries
+
+	@media only screen and (min-width: 1130px) {
+
+				position: relative;
+
+				.container {
+					display: flex;
+				}
+
+				&__contact-right {
+					position: absolute;
+					right: 0;
+					top: 2%;
+					bottom: 2%;
+					width: 55%;
+		
+					iframe {
+						height: 100%;
+					}
+				}
+
+			
+		
+	}
+
+	@media only screen and (min-width: 1450px) {
+
+		.container {
+			width: 80%;
+		}
+
+		&__contact-left {
+			flex-basis: 30%;
+		}
+
+	}
+
+}

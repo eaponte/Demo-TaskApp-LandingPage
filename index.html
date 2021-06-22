@@ -5,21 +5,21 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Document</title>
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<div class="navbar">
 			<div class="container">
-				<a class="logo" href="#">Remember<span>That</span></a>
-				<img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Nav">
-				<nav>
-					<img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Nav">
-					<ul class="primary-nav">
+				<a class="navbar__logo" href="#">Remember<span>That</span></a>
+				<img id="mobile-cta" class="navbar__mobile-menu" src="images/menu.svg" alt="Open Nav">
+				<nav class="navbar__nav">
+					<img id="mobile-exit" class="navbar__mobile-menu-exit" src="images/exit.svg" alt="Close Nav">
+					<ul class="navbar__primary-nav">
 						<li class="current"><a href="#">Home</a></li>
 						<li><a href="#">Features</a></li>
 						<li><a href="#">Pricing</a></li>
 					</ul>
-					<ul class="secondary-nav">
+					<ul class="navbar__secondary-nav">
 						<li><a href="#">Contact</a></li>
 						<li class="go-premium-cta"><a href="#">Go Premium</a></li>
 					</ul>
@@ -29,25 +29,25 @@
 
 		<section class="hero">
 			<div class="container">
-				<div class="left-col">
-					<p class="subhead">
+				<div class="hero__left-col">
+					<p class="hero__subhead">
 						It's Nitty &amp; Gritty
 					</p>
 					<h1>A Task App That Doesn't Stink</h1>
-					<div class="hero-cta">
-						<a href="#" class="primary-cta">Try for free</a>
-						<a href="#" class="watch-video-cta">
+					<div class="hero__cta">
+						<a href="#" class="hero__primary-cta">Try for free</a>
+						<a href="#" class="hero__watch-video-cta">
 							<img src="images/watch.svg" alt="Watch a video">Watch a video
 						</a>
 					</div> <!-- /hero-cta -->
 				</div> <!-- /left-col -->
-				<img class="hero-img" src="images/illustration.svg" alt="Illustration">
+				<img class="hero__img" src="images/illustration.svg" alt="Illustration">
 			</div> <!-- /container -->
 		</section> <!-- /Hero -->
 
 		<section class="features-section">
 			<div class="container">
-				<ul class="features-list">
+				<ul class="features-section__list">
 					<li>Unlimited Tasks</li>
 					<li>SMS Task Reminders</li>
 					<li>Confetti Explosions upon Task Completions</li>
@@ -86,7 +86,7 @@
 
 		<section class="contact-section">
 			<div class="container">
-				<div class="contact-left">
+				<div class="contact-section__contact-left">
 					<h2>Contact</h2>
 					<form>
 						<label for="name">Name</label>
@@ -101,7 +101,7 @@
 						<input type="submit" class="send-message-cta" value="Send">
 					</form>
 				</div> <!-- /contact-left -->
-				<div class="contact-right">
+				<div class="contact-section__contact-right">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26435.920790293203!2d-118.41704348618127!3d34.082583202299205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc04d6d147ab%3A0xd6c7c379fd081ed1!2sBeverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1622237208365!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 				</div> <!-- /contact-right -->
 			</div> <!-- /container -->
