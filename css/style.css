@@ -5,10 +5,18 @@
   --bg-color-dark: #20272E;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #F2F2F2;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 a {
